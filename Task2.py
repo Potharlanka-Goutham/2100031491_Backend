@@ -43,7 +43,7 @@ except mysql.connector.Error as err:
     print("MySQL Error:", err)
 
 finally:
-    # Close cursor and connection
+    
     if 'cur' in locals() and cur is not None:
         cur.close()
     if 'conn' in locals() and conn is not None:
