@@ -20,9 +20,13 @@ Update the MySQL connection details (host, user, password, database) in the scri
 Run the script using Python: python Task1.py
 
 Follow the prompts to interact with the menu options:
-Enter option 1 to insert location data.
+
+Enter option 1 to insert location data.  
+
 Enter option 2 to insert country data.
+
 Enter option 3 to find address details for a specific country.
+
 Enter option 4 to exit the program.
 
 Overview of Sections
