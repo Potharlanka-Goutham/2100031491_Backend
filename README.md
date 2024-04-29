@@ -3,13 +3,20 @@
 IN TASK 1:
 
 Insert location data (street address, city, state/province, country code) into the locations table.
+
 Insert country data (country ID, country name, region ID) into the countries table.
+
 Find address details (location ID, street address, city, state/province) based on a specified country name.
 
 How to Run
 Ensure you have Python installed on your system.
-Install the mysql-connector-python package using pip: pip install mysql-connector-python
+
+Install the mysql-connector-python package using pip: 
+
+pip install mysql-connector-python
+
 Update the MySQL connection details (host, user, password, database) in the script to match your MySQL setup.
+
 Run the script using Python: python Task1.py
 
 Follow the prompts to interact with the menu options:
