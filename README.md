@@ -52,8 +52,13 @@ Overview of Script
 Database Connection: Connects to a MySQL database using the provided connection details (host, user, password, database).
 User Input: Prompts the user to input a country name.
 Country ID Retrieval: Queries the countries table to find the corresponding country_id based on the provided country name.
+
 Country ID Validation: Checks if a matching country_id is found. If not, prints a message indicating that the country is not found.
+
 Address Retrieval: If a matching country_id is found, queries the locations table to retrieve the address details (location ID, street address, city, state/province) for the specified country.
+
 Output: Displays the retrieved address details in the console, including the country name, location ID, street address, city, and state/province.
+
 Error Handling: Catches and prints any MySQL errors that occur during database operations.
+
 Closing Connections: Ensures proper closure of the database cursor and connection.
